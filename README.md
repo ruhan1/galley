@@ -1,4 +1,5 @@
 
+
 # Galley Maven Artifact Transport API
 
 Galley is a series of APIs and implementations mainly focused on pushing, retrieving, deleting, and listing both Apache Maven-style artifacts and raw files from various locations. It provides an SPI and default implementation of local caching for files downloaded via the transports, and more advanced things for Maven like SNAPSHOT and metadata handling.

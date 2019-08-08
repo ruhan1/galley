@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            sh 'mvn -DskipTests -B clean verify'
+            sh 'mvn -B clean verify'
          }
       }
    }
